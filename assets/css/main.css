@@ -417,6 +417,7 @@ br.clear {
 
 .row>.imp {
 	order: -1;
+	display: block;
 }
 
 .row>.col-1 {
