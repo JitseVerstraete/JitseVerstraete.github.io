@@ -1879,7 +1879,7 @@ article:last-child {
 	aspect-ratio: 16/9;
 
 	object-fit: cover;
-	object-position: top;
+	object-position: center;
 }
 
 .image.avatar48 {
