@@ -178,7 +178,7 @@ body {
 	font-size: 19pt;
 	font-weight: 300;
 	line-height: 1.75em;
-	color: #888;
+	color: rgb(94, 94, 94);
 }
 
 body.is-preload *,
@@ -2341,7 +2341,7 @@ div.pfpFrame
 }
 
 #nav ul li a.active span:before {
-	color: #3a88cb;
+	color:  #88b4ce;
 }
 
 /* Footer */
@@ -2425,7 +2425,7 @@ div.pfpFrame
 }
 
 #main>section.one {
-	background-color: #5f7ea0;
+	background-color: #6b89a1;
 	/*background-image: url("../../images/banner.jpg"); */
 }
 
