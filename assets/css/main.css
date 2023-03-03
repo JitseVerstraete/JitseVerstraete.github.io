@@ -1888,7 +1888,7 @@ article:last-child {
 	height: 48px;
 	overflow: hidden;
 	margin: 0 auto;
-	background: #f00;
+	background: rgba(255, 255, 255, 0);
 }
 
 
@@ -2122,7 +2122,7 @@ img.pfp {
 	object-fit: cover;
 	transform: scale(1.4);
 	margin-left: 10%;
-	
+
 }
 
 img.pfpSmall {
@@ -2132,12 +2132,10 @@ img.pfpSmall {
 	object-fit: cover;
 	transform: scale(2);
 	margin-left: 10%;
-	margin-top:10%
-	
+	margin-top: 10%
 }
 
-div.pfpFrame
-{
+div.pfpFrame {
 	border-radius: 20em;
 	overflow: hidden;
 	margin: 0 auto;
@@ -2341,7 +2339,7 @@ div.pfpFrame
 }
 
 #nav ul li a.active span:before {
-	color:  #88b4ce;
+	color: #88b4ce;
 }
 
 /* Footer */
@@ -2823,10 +2821,9 @@ div.pfpFrame
 
 }
 
-.textclamp{
+.textclamp {
 	display: -webkit-box;
 	-webkit-line-clamp: 10;
 	-webkit-box-orient: vertical;
-	overflow:hidden;
+	overflow: hidden;
 }
-  
