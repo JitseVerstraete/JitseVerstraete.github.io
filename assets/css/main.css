@@ -618,6 +618,12 @@ br.clear {
 	padding-top: 80px;
 }
 
+.flexbox {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
 @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 	.row {
@@ -2826,4 +2832,8 @@ div.pfpFrame {
 	-webkit-line-clamp: 10;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
+}
+
+p {
+	font-size: 80%;
 }

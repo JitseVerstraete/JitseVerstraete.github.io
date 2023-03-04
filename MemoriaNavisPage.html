@@ -31,15 +31,18 @@
 			<nav id="nav">
 				<ul>
 					<li><a href="index.html#top" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
-					<li><a href="index.html#portfolio" id="portfolio-link"><span class="icon solid fa-th">Projects</span></a></li>
-					<li><a href="index.html#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-					<li><a href="index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
+					<li><a href="index.html#portfolio" id="portfolio-link"><span
+								class="icon solid fa-th">Projects</span></a></li>
+					<li><a href="index.html#about" id="about-link"><span class="icon solid fa-user">About Me</span></a>
+					</li>
+					<li><a href="index.html#contact" id="contact-link"><span
+								class="icon solid fa-envelope">Contact</span></a>
 					</li>
 				</ul>
 			</nav>
 
 		</div>
-		
+
 		<div class="bottom">
 
 			<!-- Social Icons -->
@@ -57,11 +60,11 @@
 				<li><a href="mailto: jitse.verstraete@gmail.com" class="icon solid fa-envelope"><span
 							class="label">Email</span></a></li>
 			</ul>
- 
+
 		</div>
-		
-	
-	
+
+
+
 
 
 	</div>
@@ -93,19 +96,15 @@
 		<!-- Portfolio -->
 		<section id="portfolio" class="two">
 			<div class="container">
+				<h3>Overview</h3>
 
-				<header>
-					<h3>Project Description</h3>
-				</header>
+				<div class="flexbox">
 
-				<p>In this project, I was part of a team of 6 students tasked to make a game for our client, Roel Heremans. In one of his previous projects 
-					(The NeuroRight Arcades), he made arcade machines that sparked self-reflection in the user about the current and future state of neurotechnologies.
-					These arcades use an EEG brain-computer-interface (called Enophones) that can read your brainwaves.<br><br>
-					This is where our project starts off. We were tasked to make a game using these enophones while keeping the self-reflective style of the NeuroRight Arcades.
-					We ended up making Memoria Navis, a game where you take control of a spaceship that was originally controlled by a wiped human consiousness. Using the brain-computer-interface,
-					you help the ship regaining its memories by inusing the ship with your thoughts and memories. There's more to the story but that is the basic outline.</p>
+					<iframe width="420" height="315"
+						src="https://www.youtube.com/embed/GTIYhvBfG2M?controls=0"></iframe>
+					<p></p>
 
-
+				</div>
 			</div>
 		</section>
 
@@ -114,10 +113,25 @@
 			<div class="container">
 
 				<header>
-					<h3>My Contributions</h3>
+					<h3>Project Description</h3>
 				</header>
 
-				<p></p>
+				<p>
+					In this project, I was part of a team of 6 students tasked to make a game for our client, Roel
+					Heremans. In one of his previous projects (The NeuroRight Arcades), he made arcade machines
+					that sparked self-reflection in the user about the current and future state of neurotechnologies.
+					These arcades use an EEG brain-computer-interface (called Enophones) that can read your brainwaves.
+				</p>
+
+				<p>
+					This is where our project starts off. We were tasked to make a game using these enophones while
+					keeping the self-reflective style of the NeuroRight Arcades.
+					We ended up making Memoria Navis, a game where you take control of a spaceship that was originally
+					controlled by a wiped human consiousness. Using the brain-computer-interface,
+					you help the ship regaining its memories by inusing the ship with your thoughts and memories.
+					There's more to the story but that is the basic outline.
+				</p>
+
 
 
 
@@ -129,11 +143,42 @@
 			<div class="container">
 
 				<header>
-					<h3>Conclusion</h2>
+					<h3>My Contributions</h3>
 				</header>
 
-				<p></p>
+				<p>
+					I was one of two programmers in the team responsible to create most of the functionality.
+					<br />
+					The main problem I had to solve was to create the system that reads the EEG-signal from the
+					brain-computer-interface to be able to use it to influence the game. I used a library called
+					"Brainflow" to read and process the signal read from the headset. This was very hard at first as i
+					had never worked with this kind of technology before.
+				</p>
 
+				<p>
+					One of the biggest systems i made was the "meditation orb". At a certain point int the game,
+					you will have to meditate in order to merge your memories with this orb. When you are meditating,
+					the game will read the eeg signal coming from your brain and use that to influence the parameters of
+					the orb. So depending on what electromagnetic signals your brain was sending out during your
+					meditation, the orb would change color, size, turbulunce, cohesion...
+				</p>
+
+				<p>
+					I also made some gameplay mechanics like:
+					<br />
+					The movement of the spaceship, making sure it feels good and somewhat realistic. We wanted to make
+					the game as accesible as possible so the ship is controlled with only the mouse.
+					<br />
+					The ai movement behavior of the "sparks" (an entity in the game you have to chase and catch). I
+					used a blended steering script to determine the desired movement direction. This was a combination
+					of wandering around, chasing/fleeing from the player and some random input.
+					<br />
+					Some systems to spawn/despawn asteroids (or other debris) around the player to create the illusion
+					of flying through a never ending asteroid field.
+					<br />
+					...
+
+				</p>
 			</div>
 		</section>
 
@@ -144,7 +189,7 @@
 
 		<!-- Copyright -->
 		<ul class="copyright">
-			<li>&copy; Untitled. All rights reserved.</li>
+			<li>&copy; Jitse Verstraete. All rights reserved.</li>
 			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 		</ul>
 
