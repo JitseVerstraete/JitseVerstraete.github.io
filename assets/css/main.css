@@ -178,7 +178,7 @@ body {
 	font-size: 19pt;
 	font-weight: 300;
 	line-height: 1.75em;
-	color: rgb(94, 94, 94);
+	color: rgb(0, 0, 0);
 }
 
 body.is-preload *,
@@ -336,7 +336,7 @@ br.clear {
 @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 	.container {
-		width: 1200px;
+		width: 1000px;
 	}
 
 }
@@ -344,7 +344,7 @@ br.clear {
 @media screen and (min-width: 961px) and (max-width: 1620px) {
 
 	.container {
-		width: 960px;
+		width: 860px;
 	}
 
 }
@@ -2348,6 +2348,7 @@ div.pfpFrame {
 	color: #88b4ce;
 }
 
+
 /* Footer */
 
 #footer {
@@ -2835,5 +2836,5 @@ div.pfpFrame {
 }
 
 p {
-	font-size: 80%;
+	font-size: 90%;
 }
