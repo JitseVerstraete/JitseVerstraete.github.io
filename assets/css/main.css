@@ -285,10 +285,7 @@ a {
 	outline: 0;
 }
 
-a:hover {
-	color: #E27689;
-	border-bottom-color: rgba(255, 255, 255, 0);
-}
+
 
 sub {
 	position: relative;
