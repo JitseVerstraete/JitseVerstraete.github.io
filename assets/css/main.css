@@ -2411,6 +2411,12 @@ div.pfpFrame {
 	color: inherit;
 }
 
+h4
+{
+	color: black;
+	font-size: 20pt;
+}
+
 #main>section.dark strong {
 	color: #fff;
 	border-color: inherit;
@@ -2438,9 +2444,13 @@ div.pfpFrame {
 	/*background-image: url("../../images/banner.jpg"); */
 }
 
+
+
 #main>section.two {
 	background-color: #bcd5eb;
 }
+
+
 
 #main>section.three {
 	background-color: #c9d9e6;
@@ -2841,4 +2851,38 @@ div.pfpFrame {
 
 p {
 	font-size: 90%;
+	margin-bottom: 0.5em;
 }
+
+
+.iframe-wrapper {
+	position: relative;
+	aspect-ratio: 16 / 9;
+	/* The next three declarations simulate
+	   `filter: drop-shadow(0 0 4px rgb(0 0 0 / 50%));` 
+	*/ 
+
+  }
+
+  iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	clip-path: inset(0% 0% 0% 0% round var(--border-radius));
+  }
+
+  .banner
+  {
+	width:33.3333%;
+	margin:auto;
+  }
+
+  #ecoBanner{
+	background-image: url("../../images/Ecosystem.png");
+  }
+
+  .centered{
+	text-align: center;
+  }
