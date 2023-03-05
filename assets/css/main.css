@@ -2885,4 +2885,9 @@ p {
 
   .centered{
 	text-align: center;
+
+  }
+
+  .margindown{
+	margin: 2em;
   }
