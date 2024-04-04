@@ -2119,13 +2119,12 @@ button:active,
 }
 
 img.pfp {
-
-	width: inherit;
-	height: inherit;
-	object-fit: cover;
-	transform: scale(1.4);
-	margin-left: 10%;
-
+	width: 100%;
+	height: auto;
+	object-fit:cover;
+	transform: scale(1.04);
+	margin-left: 2%;
+	margin-top: -10%;
 }
 
 img.pfpSmall {
@@ -2133,8 +2132,8 @@ img.pfpSmall {
 	width: inherit;
 	height: inherit;
 	object-fit: cover;
-	transform: scale(2);
-	margin-left: 10%;
+	transform: scale(1.4);
+	margin-left: 0%;
 	margin-top: 10%
 }
 
@@ -2887,4 +2886,8 @@ p {
 
   .margindown{
 	margin: 2em;
+  }
+
+  .text{
+	margin-bottom: 2em;
   }
