@@ -28,8 +28,8 @@
 }
 
 .popup-image {
-  width: min(400px, 70vw);
-  height: auto;
+  max-width: min(2000px, 100vw);
+  max-height: min(1000px, 70vh);
   display: block;
   border-radius: 12px;
 }

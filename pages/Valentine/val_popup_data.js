@@ -7,9 +7,9 @@ import popup5 from "./assets/angry.jpg";
 import popup6 from "./assets/lastChance.jpg";
 
 import popup_yes1 from "./assets/catHappy.jpg";
-import popup_yes1 from "./assets/dogFlowers.jpg";
-import popup_yes1 from "./assets/happyDog.jpg";
-import popup_yes1 from "./assets/hamsterFlowers.jpg";
+import popup_yes2 from "./assets/dogFlowers.jpg";
+import popup_yes3 from "./assets/happyDog.jpg";
+import popup_yes4 from "./assets/hamsterFlowers.jpg";
 
 export const NO_POPUPS = [
   { text: "Stop picking the wrong option!", image: popup1 },

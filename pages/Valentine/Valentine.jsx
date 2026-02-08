@@ -1,7 +1,6 @@
 import React, { useLayoutEffect, useEffect, useRef, useState } from "react";
 import "./Valentine.css";
-import { NO_POPUPS } from "./val_popup_data.js";
-import { YES_POPUP } from "./val_popup_data.js";
+import { NO_POPUPS, YES_POPUPS } from "./val_popup_data.js";
 import Popup from "./components/Popup";
 
 const JUMPS_PER_POPUP = 5;
@@ -21,7 +20,6 @@ export default function Valentine() {
   const lastNoMoveAt = useRef(0);
 
   const popupTimerRef = useRef(null);
-
   const [activePopup, setActivePopup] = useState(null);
 
   const placeButtonsUnderQuestion = () => {
@@ -55,6 +53,19 @@ export default function Valentine() {
     return () => window.removeEventListener("resize", onResize);
   }, []);
 
+  // helper: shows a popup for a given duration, safely clearing any existing timer
+  const showPopupFor = (popup, durationMs) => {
+    setActivePopup(popup);
+
+  placeButtonsUnderQuestion();
+
+    if (popupTimerRef.current) clearTimeout(popupTimerRef.current);
+    popupTimerRef.current = setTimeout(() => {
+      setActivePopup(null);
+      popupTimerRef.current = null;
+    }, durationMs);
+  };
+
   const moveNoButton = () => {
     if (!ready) return;
 
@@ -82,18 +93,24 @@ export default function Valentine() {
     const index = Math.floor(noJumpCount / JUMPS_PER_POPUP) - 1;
     const popup = NO_POPUPS[index % NO_POPUPS.length];
 
-    setActivePopup(popup);
+    showPopupFor(popup, POPUP_DURATION_MS);
+  }, [noJumpCount]);
 
-    if (popupTimerRef.current) clearTimeout(popupTimerRef.current);
-    popupTimerRef.current = setTimeout(() => {
-      setActivePopup(null);
-      popupTimerRef.current = null;
-    }, POPUP_DURATION_MS);
+  const onYesClick = () => {
+    if (!YES_POPUPS?.length) return;
 
+    const randomIndex = Math.floor(Math.random() * YES_POPUPS.length);
+    const popup = YES_POPUPS[randomIndex];
+
+    showPopupFor(popup, YES_POPUP_DURATION_MS);
+  };
+
+  // cleanup timer on unmount
+  useEffect(() => {
     return () => {
       if (popupTimerRef.current) clearTimeout(popupTimerRef.current);
     };
-  }, [noJumpCount]);
+  }, []);
 
   return (
     <main className="valentine-page">
@@ -106,6 +123,7 @@ export default function Valentine() {
         className={`btn btn-yes ${ready ? "ready" : ""}`}
         style={yesPos}
         type="button"
+        onClick={onYesClick}
       >
         Yes
       </button>
