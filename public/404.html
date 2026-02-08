@@ -2,35 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>404 – Page not found</title>
+    <title>Redirecting…</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-        background: #fff;
-        color: #222;
-        text-align: center;
-      }
+    <script>
+      const redirectPath =
+        window.location.pathname + window.location.search + window.location.hash;
 
-      h1 {
-        font-size: 48px;
-        margin: 0 0 12px;
-      }
+      const BASE = "/";
 
-      p {
-        font-size: 18px;
-        opacity: 0.7;
-      }
-    </style>
+      window.location.replace(
+        BASE + "?redirect=" + encodeURIComponent(redirectPath)
+      );
+    </script>
   </head>
-  <body>
-    <main>
-      <h1>404</h1>
-      <p>Page not found</p>
-    </main>
-  </body>
+  <body></body>
 </html>

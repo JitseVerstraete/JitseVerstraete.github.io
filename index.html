@@ -5,6 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>jitseverstraete-github-io</title>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const redirect = params.get("redirect");
+
+      if (redirect) {
+        // Restore original deep link then let React Router handle it
+        window.history.replaceState(null, "", redirect);
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
