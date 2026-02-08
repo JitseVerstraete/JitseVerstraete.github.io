@@ -7,8 +7,6 @@ import Valentine from '../pages/Valentine/Valentine.jsx'
 function App() {
 
   return (
-
-    
     <>
     <BrowserRouter>
       <Routes>
