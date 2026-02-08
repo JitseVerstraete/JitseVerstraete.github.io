@@ -134,6 +134,7 @@ export default function Valentine() {
         style={noPos}
         type="button"
         onMouseEnter={moveNoButton}
+        onClick={moveNoButton}
       >
         No
       </button>
