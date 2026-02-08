@@ -1,7 +1,11 @@
+import Hero from "../components/Hero/Hero";
+import ProjectSection from "../components/ProjectSection/ProjectSection";
+
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
+      <Hero />
+      <ProjectSection/>
     </div>
   )
 }

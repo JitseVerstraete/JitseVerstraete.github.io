@@ -6,7 +6,7 @@ export default function Hero() {
         <section className="hero">
             <div className="hero-content">
                 <h1>Welcome to Jitse's Portfolio</h1>
-                <p>Game Developer</p>
+                <h2>Game Developer</h2>
                 <button>Resume</button>
             </div>
         </section>
