@@ -1,0 +1,13 @@
+.hero
+{
+    background-color: hsl(210, 40%, 80%);
+    padding: 2em;
+}
+
+.profile-picture
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
