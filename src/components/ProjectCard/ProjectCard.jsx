@@ -3,6 +3,8 @@ import './ProjectCard.css';
 
 export default function ProjectCard() {
     return (
-       <p>Project Card</p>
+        <div className='project-card'>
+            <p>Project Card</p>
+        </div>
     );
 }

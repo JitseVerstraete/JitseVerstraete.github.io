@@ -7,9 +7,14 @@ export default function ProjectSection() {
     return (
         <>
             <h1>Project Section</h1>
-            <ProjectCard/>
-            <ProjectCard/>
-            <ProjectCard/>
+            <div className='project-section'>
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+            </div>
         </>
     );
 }
