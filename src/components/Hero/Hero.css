@@ -4,10 +4,40 @@
     padding: 2em;
 }
 
+.hero-content
+{
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    height: 20em;
+}
+
 .profile-picture
 {
-    width: 150px;
-    height: 150px;
+    margin:1em;
+   
+    height: 1em;
     border-radius: 50%;
     object-fit: cover;
+
+}
+
+.hero-image-section
+{
+    display: flex;
+    justify-content: right;
+    flex:1;
+    margin: 1em;
+}
+
+.hero-text-section
+{
+    flex: 1;
+    margin: 1em;
+    text-align: left;
 }

@@ -9,8 +9,10 @@ export default function Hero() {
                 <div className="hero-image-section">
                     <img src={profilePicture} alt="Profile" className="profile-picture" />
                 </div>
-                <h1>Jitse Verstraete</h1>
-                <h2>Game Developer</h2>
+                <div className="hero-text-section">
+                    <h1>Jitse Verstraete</h1>
+                    <h2>Game Developer</h2>
+                </div>
                 <div>
 
                 </div>
