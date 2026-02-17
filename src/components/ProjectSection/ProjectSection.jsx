@@ -14,6 +14,10 @@ export default function ProjectSection() {
                 <ProjectCard />
                 <ProjectCard />
                 <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
             </div>
         </>
     );
