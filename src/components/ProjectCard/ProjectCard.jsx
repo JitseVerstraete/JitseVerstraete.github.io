@@ -3,22 +3,22 @@ import './ProjectCard.css';
 
 import thumbnail from '../../assets/profilePicture.jpg';
 
-export default function ProjectCard() {
+export default function ProjectCard({title, description, image, tags}) {
     return (
         
         <button className="project-card">
-            <img src={thumbnail} className='project-thumbnail'></img>
-            <div class="project-content">
-                <h3 class="project-card-title">Project Name</h3>
+            <img src={image} alt={title} className='project-thumbnail'></img>
+            <div className="project-content">
+                <h3 className="project-card-title">{title}</h3>
 
-                <p class="project-description">
-                    A short description explaining what the project does and the main goal behind it.
+                <p className="project-description">
+                    {description}
                 </p>
 
-                <div class="project-tags">
-                    <span class="tag">Tag1</span>
-                    <span class="tag">Tag2</span>
-                    <span class="tag">Tag3</span>
+                <div className="project-tags">
+                    {tags.map((tag, index) => (
+                        <span key={index} className="tag">{tag}</span>
+                    ))}
                 </div>
             </div>
         </button>
