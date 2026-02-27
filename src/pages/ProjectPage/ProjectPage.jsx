@@ -1,12 +1,23 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
 import projectData from "../../data/projectData.json";
-import { projectImages } from "../../data/images";
 import ProjectBanner from "../../components/ProjectBanner/ProjectBanner";
+import ContentSection from "../../components/ContentSection/ContentSection";
 import "./ProjectPage.css";
 
 export default function ProjectPage() {
+    const project = projectData[0];
+
     return(
-        <ProjectBanner></ProjectBanner>
+        <main className="project-page">
+            <ProjectBanner projectData={project} />
+            <ContentSection className="project-article-section">
+                <article className="project-article">
+                    <h2>About This Project</h2>
+                    {project.expandedDescription?.map((paragraph) => (
+                        <p key={paragraph}>{paragraph}</p>
+                    ))}
+                </article>
+            </ContentSection>
+        </main>
     );
 }
