@@ -6,7 +6,7 @@ import ContentSection from '../ContentSection/ContentSection';
 
 export default function ProjectSection() {
     return (
-        <ContentSection className="project-section-wrapper">
+        <ContentSection id="projects" className="project-section-wrapper">
             <h1>Project Section</h1>
             <div className='project-section'>
                 {projectData.map((project) =>(
