@@ -11,9 +11,12 @@ export default function ProjectCard({data}) {
             <div className="project-content">
                 <h3 className="project-card-title">{data['title']}</h3>
 
-                <p className="project-description">
+                <p className={`project-description${data.projectTimestamp ? " has-project-timestamp" : ""}`}>
                     {data['description']}
                 </p>
+                {data.projectTimestamp && (
+                    <p className="project-timestamp">{data.projectTimestamp}</p>
+                )}
 
                 <div className="project-tags">
                     {data.tags.map((tag, index) => (

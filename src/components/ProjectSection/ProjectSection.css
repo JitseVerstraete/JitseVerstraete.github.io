@@ -1,5 +1,6 @@
 .project-section-wrapper h1 {
   margin: 2rem 0 1.25rem;
+  color: var(--color-text);
 }
 
 .project-section-wrapper {

@@ -1,13 +1,25 @@
 :root {
-  
+  --color-background: #101113;
+  --color-surface: #181a1f;
+  --color-surface-elevated: #20242a;
+  --color-surface-hover: #262b32;
+  --color-border: rgba(229, 234, 240, 0.14);
+  --color-border-strong: rgba(229, 234, 240, 0.24);
+  --color-text: #eef2f6;
+  --color-text-muted: #aeb7c2;
+  --color-accent: #67e8c4;
+  --color-accent-soft: rgba(103, 232, 196, 0.14);
+  --shadow-card: 0 16px 36px rgba(0, 0, 0, 0.28);
+
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   text-align: center;
   
-  color: hsl(222, 100%, 10%);
-  background-color: hsl(222, 100%, 100%);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  color-scheme: dark;
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,8 +32,15 @@
 body{
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
 }
 
 button{
   padding: 0;
+}
+
+a {
+  color: inherit;
 }
