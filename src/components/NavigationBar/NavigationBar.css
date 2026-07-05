@@ -73,6 +73,7 @@
     background: transparent;
     color: inherit;
     cursor: pointer;
+    text-decoration: none;
     transition: background-color 0.2s ease, transform 0.2s ease;
 }
 

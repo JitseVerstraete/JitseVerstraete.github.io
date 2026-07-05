@@ -3,6 +3,24 @@ import { NavLink } from "react-router-dom";
 import { FaEnvelope, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import "./NavigationBar.css";
 
+const contactActions = [
+    {
+        label: "Email contact",
+        href: "mailto:jitse.verstraete@gmail.com",
+        icon: FaEnvelope,
+    },
+    {
+        label: "GitHub profile",
+        href: "https://github.com/JitseVerstraete",
+        icon: FaGithub,
+    },
+    {
+        label: "LinkedIn profile",
+        href: "https://www.linkedin.com/in/jitseverstraete/",
+        icon: FaLinkedinIn,
+    },
+];
+
 export default function NavigationBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -34,35 +52,45 @@ export default function NavigationBar() {
                     <NavLink to="/" className="nav-link" onClick={closeMenu}>
                         Home
                     </NavLink>
+                    <NavLink to="/#about" className="nav-link" onClick={closeMenu}>
+                        About Me
+                    </NavLink>
                     <NavLink to="/#projects" className="nav-link" onClick={closeMenu}>
                         Projects
                     </NavLink>
-                    <NavLink className="nav-link" onClick={closeMenu}>
-                        About Me
+                    <NavLink to="/#contact" className="nav-link" onClick={closeMenu}>
+                        Contact
                     </NavLink>
                     <div className="nav-sidebar-contact" aria-label="Sidebar contact links">
-                        <button type="button" className="nav-contact-button" aria-label="Email contact">
-                            <FaEnvelope aria-hidden="true" focusable="false" />
-                        </button>
-                        <button type="button" className="nav-contact-button" aria-label="GitHub profile">
-                            <FaGithub aria-hidden="true" focusable="false" />
-                        </button>
-                        <button type="button" className="nav-contact-button" aria-label="LinkedIn profile">
-                            <FaLinkedinIn aria-hidden="true" focusable="false" />
-                        </button>
+                        {contactActions.map(({ label, href, icon }) => (
+                            <a
+                                key={label}
+                                href={href}
+                                className="nav-contact-button"
+                                aria-label={label}
+                                target={href.startsWith("http") ? "_blank" : undefined}
+                                rel={href.startsWith("http") ? "noreferrer" : undefined}
+                                onClick={closeMenu}
+                            >
+                                {React.createElement(icon, { "aria-hidden": true, focusable: "false" })}
+                            </a>
+                        ))}
                     </div>
                 </div>
             </nav>
             <div className="nav-contact-actions" aria-label="Contact links">
-                <button type="button" className="nav-contact-button" aria-label="Email contact">
-                    <FaEnvelope aria-hidden="true" focusable="false" />
-                </button>
-                <button type="button" className="nav-contact-button" aria-label="GitHub profile">
-                    <FaGithub aria-hidden="true" focusable="false" />
-                </button>
-                <button type="button" className="nav-contact-button" aria-label="LinkedIn profile">
-                    <FaLinkedinIn aria-hidden="true" focusable="false" />
-                </button>
+                {contactActions.map(({ label, href, icon }) => (
+                    <a
+                        key={label}
+                        href={href}
+                        className="nav-contact-button"
+                        aria-label={label}
+                        target={href.startsWith("http") ? "_blank" : undefined}
+                        rel={href.startsWith("http") ? "noreferrer" : undefined}
+                    >
+                        {React.createElement(icon, { "aria-hidden": true, focusable: "false" })}
+                    </a>
+                ))}
             </div>
             {isMenuOpen && (
                 <button

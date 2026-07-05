@@ -1,0 +1,18 @@
+.about-me-section {
+    scroll-margin-top: 5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+.about-me-content p {
+    margin: 0 0 1rem;
+    color: var(--color-text-muted);
+    line-height: 1.65;
+}
+
+@media (max-width: 700px) {
+    .about-me-section {
+        padding: 0 1rem 1.5rem;
+    }
+}

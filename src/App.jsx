@@ -7,11 +7,20 @@ import ProjectPage from "./pages/ProjectPage/ProjectPage.jsx";
 import NavigationBar from "./components/NavigationBar/NavigationBar.jsx";
 
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  const { hash, pathname } = useLocation();
 
   useEffect(() => {
+    if (hash) {
+      const frame = requestAnimationFrame(() => {
+        const target = document.getElementById(decodeURIComponent(hash.slice(1)));
+        target?.scrollIntoView({ block: "start" });
+      });
+
+      return () => cancelAnimationFrame(frame);
+    }
+
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [hash, pathname]);
 
   return null;
 }

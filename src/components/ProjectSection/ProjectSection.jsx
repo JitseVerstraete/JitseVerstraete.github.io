@@ -2,7 +2,6 @@ import React from 'react';
 import projectData from '../../data/projectData.json';
 import './ProjectSection.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
-import ContentSection from '../ContentSection/ContentSection';
 
 export default function ProjectSection({ title = "Projects", section }) {
     const projects = projectData.filter((project) => {
@@ -17,8 +16,8 @@ export default function ProjectSection({ title = "Projects", section }) {
     }
 
     return (
-        <ContentSection id={section ? `projects-${section}` : "projects"} className="project-section-wrapper">
-            <h1>{title}</h1>
+        <section id={section ? `projects-${section}` : undefined} className="project-section-wrapper">
+            <h2>{title}</h2>
             <div className='project-section'>
                 {projects.map((project) => (
                     <ProjectCard
@@ -27,6 +26,6 @@ export default function ProjectSection({ title = "Projects", section }) {
                     ></ProjectCard>
                 ))}
             </div>
-        </ContentSection>
+        </section>
     );
 }
