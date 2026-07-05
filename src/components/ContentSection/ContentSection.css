@@ -1,0 +1,15 @@
+.content-section {
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 1.25rem 2rem;
+    box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+    .content-section {
+        max-width: none;
+        margin: 0;
+        padding: 1rem;
+    }
+}

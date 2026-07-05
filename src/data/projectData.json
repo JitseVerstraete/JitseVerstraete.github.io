@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "enabled": true,
+    "section": "professional",
+    "title": "Hidden Through Time 2: Myths & Magic",
+    "description": "Hidden object game",
+    "projectTimestamp": "2023",
+    "image": "htt2cover.jpg",
+    "banner": "htt2cover.jpg",
+    "links": [
+      {
+        "label": "Steam",
+        "url": "https://store.steampowered.com/app/2304640/Hidden_Through_Time_2_Myths__Magic/"
+      },
+      {
+        "label": "Trailer",
+        "url": "https://www.youtube.com/watch?v=L-QeQ3iAckE"
+      }
+    ],
+    "expandedDescription": [
+      "Hidden Through Time 2: Myths & Magic is a casual hidden object game by Rogueside. I contributed to the project during my end-of-study internship.",
+      "The game challenges players to find hidden items and characters across hand-drawn environments. It includes a story campaign across four eras, a built-in level designer, and support for sharing custom levels.",
+      "My work started with bug fixing across existing gameplay systems, which helped me get familiar with the production codebase while the game was already mostly feature-complete.",
+      "After release, I worked on console and mobile porting tasks. This included a reusable controller navigation system for menus and windows, Android build and boot fixes, touch input support, Steam Deck compatibility, and readability improvements for smaller screens."
+    ],
+    "galleryImages": [
+      "htt2cover.jpg"
+    ],
+    "technologies": [
+      "Unity",
+      "C#",
+      "Sourcetree",
+      "Android",
+      "Steam Deck"
+    ],
+    "projectInfo": [
+      {
+        "label": "Context",
+        "value": "End-of-study internship at Rogueside"
+      },
+      {
+        "label": "Role",
+        "value": "Gameplay, porting, controller input, and bug fixing"
+      }
+    ],
+    "tags": [
+      "Unity",
+      "C#",
+      "Porting"
+    ]
+  },
+  {
+    "id": 2,
+    "enabled": true,
+    "section": "student",
+    "title": "Memoria Navis",
+    "description": "Story/Meditation game",
+    "projectTimestamp": "2022",
+    "image": "MemoriaNavis.jpg",
+    "banner": "MemoriaNavis.jpg",
+    "links": [
+      {
+        "label": "Itch.io",
+        "url": "https://wout-de-bolster.itch.io/memoria-navis"
+      },
+      {
+        "label": "Trailer",
+        "url": "https://www.youtube.com/watch?v=IS2b-XopOSQ"
+      }
+    ],
+    "expandedDescription": [
+      "Memoria Navis is a story-driven and meditative game that uses brainwaves to enhance the experience.",
+      "I was part of a six-person student team working for our client, Roel Heremans. His NeuroRight Arcades used EEG brain-computer interfaces called Enophones to create reflective arcade experiences about neurotechnology.",
+      "Our task was to build a game around the Enophones while keeping that reflective tone. We made a game where the player controls a spaceship that was once guided by a wiped human consciousness, then helps the ship recover memories through thought and interaction.",
+      "I was one of two programmers on the team. A major part of my work was reading and processing EEG signals through BrainFlow so the brain-computer interface could influence gameplay.",
+      "One of my biggest systems was the meditation orb. During meditation, the game reads EEG data and uses it to affect the orb's color, size, turbulence, cohesion, and related parameters.",
+      "I also worked on ship movement, spark AI behavior with blended steering, and systems that spawn and despawn asteroids or debris to create the feeling of moving through an endless field."
+    ],
+    "galleryImages": [
+      "MemoriaNavis.jpg",
+      "MN_01.jpg",
+      "MN_02.jpg",
+      "MN_03.jpg",
+      "MN_04.jpg"
+    ],
+    "technologies": [
+      "Unity",
+      "C#",
+      "BrainFlow",
+      "EEG"
+    ],
+    "projectInfo": [
+      {
+        "label": "Context",
+        "value": "Client project for Roel Heremans"
+      },
+      {
+        "label": "Duration",
+        "value": "~250 hours per person"
+      },
+      {
+        "label": "Team",
+        "value": "6-person student team"
+      }
+    ],
+    "tags": [
+      "Unity",
+      "C#",
+      "EEG"
+    ]
+  },
+  {
+    "id": 3,
+    "enabled": true,
+    "section": "student",
+    "title": "Cloudy with a Chance of Cannonballs",
+    "description": "Local PvP arena game",
+    "projectTimestamp": 2022,
+    "image": "CCCThumbnail.png",
+    "banner": "CCCGameplay.jpg",
+    "links": [
+      {
+        "label": "Itch.io",
+        "url": "https://bvanhoorick.itch.io/cloudywithachanceofcannonballs"
+      },
+      {
+        "label": "Trailer",
+        "url": "https://www.youtube.com/watch?v=GqqF881syOo"
+      }
+    ],
+    "expandedDescription": [
+      "Cloudy with a Chance of Cannonballs is a local PvP game where players battle their friends with airships.",
+      "Each ship has cannons on both sides and can shoot different cannonball types at opponents. Supply drops float above the clouds and provide power-ups such as speed boosts, repairs, ammo changes, faster fire rate, and occasional hazards.",
+      "Special events can also change the match, including storms that sweep ships away and armageddon events that fill the arena with bombs.",
+      "The game was made in Unity by a team of six students over a semester. It was voted fifth best out of 28 submitted projects and was selected to be shown at FLEGA Cafe.",
+      "I was one of two programmers on the project. I was responsible for airship movement, boosting, shooting, input actions, ammo types, join screen logic, player management, score tracking, and several supply drop systems."
+    ],
+    "galleryImages": [
+      "CCCThumbnail.png",
+      "CCCGameplay.jpg"
+    ],
+    "technologies": [
+      "Unity",
+      "C#"
+    ],
+    "projectInfo": [
+      {
+        "label": "Context",
+        "value": "Student semester project"
+      },
+      {
+        "label": "Duration",
+        "value": "~100 hours"
+      },
+      {
+        "label": "Team",
+        "value": "6-person student team"
+      }
+    ],
+    "tags": [
+      "Unity",
+      "C#",
+      "Local Multiplayer"
+    ]
+  },
+  {
+    "id": 4,
+    "enabled": true,
+    "section": "student",
+    "title": "Crossy Road Remake",
+    "description": "Graphics programming project",
+    "projectTimestamp": "2022",
+    "image": "CrossyRoadScreenshot.png",
+    "banner": "CrossyRoadScreenshot.png",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JitseVerstraete/CrossyRoadRemake"
+      },
+      {
+        "label": "Trailer",
+        "url": "https://www.youtube.com/watch?v=0N1ps_L79bs"
+      }
+    ],
+    "expandedDescription": [
+      "Crossy Road Remake is a small game project focused on graphics programming techniques.",
+      "The project was built in a basic engine with DirectX, PhysX, and a game loop already set up. I implemented systems including shadow mapping, skinned animations, sprite rendering, text rendering, a particle system, and post-processing.",
+      "The remake contains four terrain types: grass, water, road, and railway. These terrain layers are generated as the player moves forward.",
+      "I used a world grid to detect trees and rivers, and collider checks to detect cars and trains.",
+      "I wrote custom HLSL shaders, including geometry shaders for grass blades and road markings, plus a shader for customizing passing car colors."
+    ],
+    "galleryImages": [
+      "CrossyRoadScreenshot.png",
+      "CrossyRoadLogo.png"
+    ],
+    "technologies": [
+      "C++",
+      "HLSL",
+      "DirectX",
+      "PhysX"
+    ],
+    "projectInfo": [
+      {
+        "label": "Context",
+        "value": "Graphics programming school project"
+      },
+      {
+        "label": "Duration",
+        "value": "~40 hours"
+      },
+      {
+        "label": "Topics",
+        "value": "Rendering systems, shaders, and engine programming"
+      }
+    ],
+    "tags": [
+      "C++",
+      "DirectX",
+      "HLSL"
+    ]
+  },
+  {
+    "id": 5,
+    "enabled": true,
+    "section": "student",
+    "title": "Ecosystem Simulation",
+    "description": "Natural selection simulation",
+    "projectTimestamp": "2022",
+    "image": "Ecosystem.gif",
+    "banner": "Ecosystem.png",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JitseVerstraete/EcosystemSimulation"
+      }
+    ],
+    "expandedDescription": [
+      "Ecosystem Simulation started from an interest in genetics and natural selection.",
+      "The goal was to create a simulation where organism traits and genes change based on environmental factors. Organisms need to eat to survive and reproduce to sustain the population.",
+      "Each organism's genes define how fast it can move and how far it can see. Stronger traits come with a cost: higher vision or speed values consume more energy and require more food.",
+      "The old portfolio also pointed to the GitHub page for a more detailed breakdown of the simulation behavior and results."
+    ],
+    "galleryImages": [
+      "Ecosystem.gif",
+      "Ecosystem.png"
+    ],
+    "technologies": [
+      "Unity",
+      "C#",
+      "Excel"
+    ],
+    "projectInfo": [
+      {
+        "label": "Context",
+        "value": "Personal simulation experiment"
+      },
+      {
+        "label": "Duration",
+        "value": "~20 hours"
+      },
+      {
+        "label": "Topics",
+        "value": "Genetics, natural selection, and emergent simulation"
+      }
+    ],
+    "tags": [
+      "Unity",
+      "C#",
+      "Simulation"
+    ]
+  },
+  {
+    "id": 6,
+    "enabled": true,
+    "section": "game-jam",
+    "title": "Tripsitter",
+    "description": "Global Game Jam 2024",
+    "projectTimestamp": "2024",
+    "image": "tripsitterImage.png",
+    "banner": "tripsitterImage.png",
+    "links": [
+      {
+        "label": "Game Jam",
+        "url": "https://globalgamejam.org/games/2024/tripsitter-1"
+      },
+      {
+        "label": "Itch.io",
+        "url": "https://jitse.itch.io/tripsitter"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JitseVerstraete/Tripsitter"
+      },
+      {
+        "label": "Trailer",
+        "url": "https://www.youtube.com/watch?v=tOf6fNsfZy4"
+      }
+    ],
+    "expandedDescription": [
+      "Tripsitter is a small game created during Global Game Jam 2024.",
+      "The player receives a panicked call from a friend who has taken too many psychedelics and needs help avoiding a bad trip.",
+      "The player keeps their friend comfortable by removing disturbing stimuli and responding to their needs. Actions include giving them food when they are hungry, changing the TV channel, and opening or closing the window blinds."
+    ],
+    "galleryImages": [
+      "tripsitterImage.png"
+    ],
+    "technologies": [
+      "Unity",
+      "C#"
+    ],
+    "projectInfo": [
+      {
+        "label": "Context",
+        "value": "Global Game Jam 2024"
+      },
+      {
+        "label": "Duration",
+        "value": "48-hour game jam"
+      }
+    ],
+    "tags": [
+      "Unity",
+      "C#",
+      "Game Jam"
+    ]
+  },
+  {
+    "id": 7,
+    "enabled": false,
+    "section": "student",
+    "title": "Zombie Survival AI",
+    "description": "AI programming project",
+    "projectTimestamp": 2022,
+    "image": "ZombieAI.gif",
+    "banner": "ZombieAI.gif",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/JitseVerstraete/ZombieGame"
+      }
+    ],
+    "expandedDescription": [
+      "Zombie Survival AI is a project where I wrote an AI agent that plays a zombie survival game and tries to score as many points as possible.",
+      "The game includes houses with useful items such as medkits, food, and pistols. The agent gains points by surviving, hitting or killing enemies, and picking up items, while missed shots cost points.",
+      "The game gets progressively more difficult as more enemies and stronger variants appear. Purge zones can also spawn on the map and kill the agent if it remains inside when they detonate.",
+      "I used several techniques to improve the agent. The play area is split into a grid, explored tiles are tracked, houses are remembered for later item checks, and known item locations are stored by type.",
+      "The agent constantly rotates to spot enemies and items in time. Higher-level decisions are driven by a finite state machine with behaviors for finding items, fleeing enemies or purge zones, and exploring the map."
+    ],
+    "galleryImages": [
+      "ZombieAI.gif",
+      "ZombieAI1.png",
+      "ZombieAI2.png",
+      "ZombieAI3.png",
+      "ZombieAI4.png"
+    ],
+    "technologies": [
+      "C++"
+    ],
+    "projectInfo": [
+      {
+        "label": "Context",
+        "value": "AI programming school project"
+      },
+      {
+        "label": "Duration",
+        "value": "~40 hours"
+      },
+      {
+        "label": "Topics",
+        "value": "Pathfinding, finite state machines, and survival decision making"
+      }
+    ],
+    "tags": [
+      "C++",
+      "AI",
+      "Pathfinding"
+    ]
+  }
+]
