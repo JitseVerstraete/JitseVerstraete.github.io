@@ -12,7 +12,6 @@
     width: 100%;
     height: 4px;
     margin-top: 0.65rem;
-    border-radius: 999px;
     background: var(--color-accent);
 }
 

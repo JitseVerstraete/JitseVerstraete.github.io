@@ -9,13 +9,12 @@ export default function AboutMe() {
             <SectionHeader>About me</SectionHeader>
             <div className="about-me-content">
                 <p>
-                    I'm a game development graduate from Digital Arts and Entertainment in Kortrijk. During my studies,
-                    I developed both my technical skills and my passion for making creative gaming experiences.
+                    My name is Jitse, I'm a game programmer from Belgium specialized in creating games and experiences in Unity. 
+                    I've developed for various platforms like XR Devices, Web, Mobile and PC.
                 </p>
                 <p>
-                    Before starting at DAE, I studied Applied Informatics for one semester, where I discovered my
-                    interest in programming. Combined with my enthusiasm for video games, that led me to Howest's game
-                    development curriculum.
+                    In 2024, I graduated from Digital Arts and Entertainment in Kortrijk with a bachelor in Game Development.
+                    Shortly after, I started working at PreviewLabs, where I've already worked on a myriad of prototypes for commercial games, serious games, scientific research and more.
                 </p>
                 <p>
                     In my free time, I enjoy playing music to relax and unwind. I learned to play drums in music school
@@ -23,8 +22,8 @@ export default function AboutMe() {
                     Thieves, Outer Wilds, Risk of Rain 2, and Dead Cells.
                 </p>
                 <p>
-                    I would love to be part of a team that makes memorable games like these. If you have any questions,
-                    feel free to contact me through my socials or email.
+                    I value being a part of a team that builds interesting and meaningful experiences in an 
+                    environment that encourages growth and creativity.
                 </p>
             </div>
         </ContentSection>

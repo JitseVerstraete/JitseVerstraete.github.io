@@ -2,10 +2,10 @@
     width: 100%;
     padding: 1.25rem 1.5rem;
     border: 1px solid var(--color-border);
-    border-radius: 8px;
+    border-radius: 4px;
     color: var(--color-text);
     background: var(--color-surface);
-    box-shadow: var(--shadow-card);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.24);
     text-align: left;
 }
 
@@ -60,7 +60,7 @@
 .project-details-tech-list span {
     padding: 0.25rem 0.55rem;
     border: 1px solid var(--color-border-strong);
-    border-radius: 999px;
+    border-radius: 3px;
     font-size: 0.85rem;
     color: var(--color-text);
     background: var(--color-surface-elevated);
