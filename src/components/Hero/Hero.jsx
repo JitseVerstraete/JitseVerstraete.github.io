@@ -12,6 +12,9 @@ export default function Hero() {
                 <div className="hero-text-section">
                     <h1>Jitse Verstraete</h1>
                     <h2>Game Developer</h2>
+                    <a className="hero-resume-link" href="/resume.pdf" target="_blank" rel="noreferrer">
+                        Resume
+                    </a>
                 </div>
                 <div>
 

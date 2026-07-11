@@ -52,3 +52,33 @@
 .hero-text-section h2 {
     color: var(--color-text-muted);
 }
+
+.hero-resume-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 5.3rem;
+    height: 2.75rem;
+    box-sizing: border-box;
+    margin-top: 0.75rem;
+    padding: 0 1rem;
+    border: 1px solid var(--color-border-strong);
+    border-radius: 999px;
+    background: var(--color-surface);
+    color: var(--color-text);
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    transition: border-color 0.16s ease, transform 0.16s ease;
+}
+
+.hero-resume-link:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-1px);
+}
+
+.hero-resume-link:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+}
