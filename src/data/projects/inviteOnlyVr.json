@@ -1,0 +1,35 @@
+{
+  "title": "Invite Only VR",
+  "description": "Educational experience about peer pressure and vaping",
+  "projectTimestamp": "2024",
+  "image": "IOVRClassroom.jpg",
+  "banner": "IOVRClassroom.jpg",
+  "links": [
+    {
+      "label": "",
+      "url": ""
+    }
+  ],
+  "expandedDescription": [
+    "Test"
+  ],
+  "galleryImages": [
+    "IOVRClassroom.jpg",
+    "IOVRThumbnail.png"
+  ],
+  "technologies": [
+    ""
+  ],
+  "projectInfo": [
+    {
+      "label": "",
+      "value": ""
+    }
+  ],
+  "tags": [
+    "C#",
+    "Unity",
+    "VR",
+    "Educational"
+  ]
+}

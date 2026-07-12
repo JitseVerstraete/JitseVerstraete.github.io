@@ -1,0 +1,49 @@
+{
+  "title": "Zombie Survival AI",
+  "description": "AI programming project",
+  "projectTimestamp": 2022,
+  "image": "ZombieAI.gif",
+  "banner": "ZombieAI.gif",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/JitseVerstraete/ZombieGame"
+    }
+  ],
+  "expandedDescription": [
+    "Zombie Survival AI is a project where I wrote an AI agent that plays a zombie survival game and tries to score as many points as possible.",
+    "The game includes houses with useful items such as medkits, food, and pistols. The agent gains points by surviving, hitting or killing enemies, and picking up items, while missed shots cost points.",
+    "The game gets progressively more difficult as more enemies and stronger variants appear. Purge zones can also spawn on the map and kill the agent if it remains inside when they detonate.",
+    "I used several techniques to improve the agent. The play area is split into a grid, explored tiles are tracked, houses are remembered for later item checks, and known item locations are stored by type.",
+    "The agent constantly rotates to spot enemies and items in time. Higher-level decisions are driven by a finite state machine with behaviors for finding items, fleeing enemies or purge zones, and exploring the map."
+  ],
+  "galleryImages": [
+    "ZombieAI.gif",
+    "ZombieAI1.png",
+    "ZombieAI2.png",
+    "ZombieAI3.png",
+    "ZombieAI4.png"
+  ],
+  "technologies": [
+    "C++"
+  ],
+  "projectInfo": [
+    {
+      "label": "Context",
+      "value": "AI programming school project"
+    },
+    {
+      "label": "Duration",
+      "value": "~40 hours"
+    },
+    {
+      "label": "Topics",
+      "value": "Pathfinding, finite state machines, and survival decision making"
+    }
+  ],
+  "tags": [
+    "C++",
+    "AI",
+    "Pathfinding"
+  ]
+}

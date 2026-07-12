@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaEnvelope, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import "./NavigationBar.css";
 
@@ -34,7 +34,9 @@ export default function NavigationBar() {
 
     return (
         <header className="navigation-bar">
-            <span className="nav-name">Jitse Verstraete</span>
+            <Link to="/" className="nav-name" onClick={closeMenu}>
+                Jitse Verstraete
+            </Link>
             <button
                 type="button"
                 className="nav-menu-toggle"

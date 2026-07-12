@@ -1,0 +1,33 @@
+{
+  "title": "The Cutie",
+  "description": "Educational game about immuno-deficient newborns",
+  "projectTimestamp": "2025",
+  "image": "",
+  "banner": "",
+  "links": [
+    {
+      "label": "",
+      "url": ""
+    }
+  ],
+  "expandedDescription": [
+    ""
+  ],
+  "galleryImages": [
+    ""
+  ],
+  "technologies": [
+    ""
+  ],
+  "projectInfo": [
+    {
+      "label": "",
+      "value": ""
+    }
+  ],
+  "tags": [
+    "C#",
+    "Unity",
+    "VR"
+  ]
+}

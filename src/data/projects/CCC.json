@@ -1,0 +1,51 @@
+{
+  "title": "Cloudy with a Chance of Cannonballs",
+  "description": "Local PvP arena game",
+  "projectTimestamp": 2022,
+  "image": "CCCThumbnail.png",
+  "banner": "CCCGameplay.jpg",
+  "links": [
+    {
+      "label": "Itch.io",
+      "url": "https://bvanhoorick.itch.io/cloudywithachanceofcannonballs"
+    },
+    {
+      "label": "Trailer",
+      "url": "https://www.youtube.com/watch?v=GqqF881syOo"
+    }
+  ],
+  "expandedDescription": [
+    "Cloudy with a Chance of Cannonballs is a local PvP game where players battle their friends with airships.",
+    "Each ship has cannons on both sides and can shoot different cannonball types at opponents. Supply drops float above the clouds and provide power-ups such as speed boosts, repairs, ammo changes, faster fire rate, and occasional hazards.",
+    "Special events can also change the match, including storms that sweep ships away and armageddon events that fill the arena with bombs.",
+    "The game was made in Unity by a team of six students over a semester. It was voted fifth best out of 28 submitted projects and was selected to be shown at FLEGA Cafe.",
+    "I was one of two programmers on the project. I was responsible for airship movement, boosting, shooting, input actions, ammo types, join screen logic, player management, score tracking, and several supply drop systems."
+  ],
+  "galleryImages": [
+    "CCCThumbnail.png",
+    "CCCGameplay.jpg"
+  ],
+  "technologies": [
+    "Unity",
+    "C#"
+  ],
+  "projectInfo": [
+    {
+      "label": "Context",
+      "value": "Student semester project"
+    },
+    {
+      "label": "Duration",
+      "value": "~100 hours"
+    },
+    {
+      "label": "Team",
+      "value": "6-person student team"
+    }
+  ],
+  "tags": [
+    "Unity",
+    "C#",
+    "Local Multiplayer"
+  ]
+}

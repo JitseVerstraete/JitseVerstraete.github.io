@@ -5,12 +5,7 @@ import ProjectSection from "../components/ProjectSection/ProjectSection";
 import ContentSection from "../components/ContentSection/ContentSection";
 import SectionHeader from "../components/SectionHeader/SectionHeader";
 import Contact from "../components/Contact/Contact";
-
-const projectSections = [
-  { id: "professional", title: "Professional Work" },
-  { id: "student", title: "Student Projects" },
-  { id: "game-jam", title: "Game Jams" },
-];
+import { projectSections } from "../data/projectData.js";
 
 export default function Home() {
   return (

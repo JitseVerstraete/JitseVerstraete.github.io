@@ -1,0 +1,66 @@
+{
+  "title": "Memoria Navis",
+  "description": "Story/Meditation game",
+  "projectTimestamp": "2022",
+  "image": "MemoriaNavis.jpg",
+  "banner": "MemoriaNavis.jpg",
+  "links": [
+    {
+      "label": "Itch.io",
+      "url": "https://wout-de-bolster.itch.io/memoria-navis"
+    },
+    {
+      "label": "Trailer",
+      "url": "https://www.youtube.com/watch?v=IS2b-XopOSQ"
+    }
+  ],
+  "expandedDescription": [
+    "Memoria Navis is a story-driven and meditative game that uses brainwaves to enhance the experience.",
+    "I was part of a six-person student team working for our client, Roel Heremans. His NeuroRight Arcades used EEG brain-computer interfaces called Enophones to create reflective arcade experiences about neurotechnology.",
+    "Our task was to build a game around the Enophones while keeping that reflective tone. We made a game where the player controls a spaceship that was once guided by a wiped human consciousness, then helps the ship recover memories through thought and interaction.",
+    "I was one of two programmers on the team. A major part of my work was reading and processing EEG signals through BrainFlow so the brain-computer interface could influence gameplay.",
+    "One of my biggest systems was the meditation orb. During meditation, the game reads EEG data and uses it to affect the orb's color, size, turbulence, cohesion, and related parameters.",
+    "I also worked on ship movement, spark AI behavior with blended steering, and systems that spawn and despawn asteroids or debris to create the feeling of moving through an endless field."
+  ],
+  "galleryImages": [
+    "MemoriaNavis.jpg",
+    "MN_01.jpg",
+    "MN_02.jpg",
+    "MN_03.jpg",
+    "MN_01.jpg",
+    "MN_02.jpg",
+    "MN_03.jpg",
+    "MN_01.jpg",
+    "MN_02.jpg",
+    "MN_03.jpg",
+    "MN_01.jpg",
+    "MN_02.jpg",
+    "MN_03.jpg",
+    "MN_04.jpg"
+  ],
+  "technologies": [
+    "Unity",
+    "C#",
+    "BrainFlow",
+    "EEG"
+  ],
+  "projectInfo": [
+    {
+      "label": "Context",
+      "value": "Client project for Roel Heremans"
+    },
+    {
+      "label": "Duration",
+      "value": "~250 hours per person"
+    },
+    {
+      "label": "Team",
+      "value": "6-person student team"
+    }
+  ],
+  "tags": [
+    "Unity",
+    "C#",
+    "EEG"
+  ]
+}

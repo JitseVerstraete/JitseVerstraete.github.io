@@ -1,15 +1,10 @@
 import React from 'react';
-import projectData from '../../data/projectData.json';
+import { getProjectsForSection } from '../../data/projectData.js';
 import './ProjectSection.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
 
 export default function ProjectSection({ title = "Projects", section }) {
-    const projects = projectData.filter((project) => {
-        const isEnabled = project.enabled !== false;
-        const isInSection = !section || project.section === section;
-
-        return isEnabled && isInSection;
-    });
+    const projects = getProjectsForSection(section);
 
     if (projects.length === 0) {
         return null;

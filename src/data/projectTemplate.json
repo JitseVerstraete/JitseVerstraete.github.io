@@ -1,0 +1,49 @@
+{
+  "title": "Project Title",
+  "description": "Short project description",
+  "projectTimestamp": "2026",
+  "image": "thumbnail-image.png",
+  "banner": "banner-image.png",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/username/project"
+    },
+    {
+      "label": "Trailer",
+      "url": "https://www.youtube.com/watch?v=VIDEO_ID"
+    }
+  ],
+  "expandedDescription": [
+    "First paragraph for the project page.",
+    "Second paragraph with more detail about the work, role, or result."
+  ],
+  "galleryImages": [
+    "thumbnail-image.png",
+    "screenshot-1.png",
+    "screenshot-2.png"
+  ],
+  "technologies": [
+    "Unity",
+    "C#"
+  ],
+  "projectInfo": [
+    {
+      "label": "Context",
+      "value": "Personal project"
+    },
+    {
+      "label": "Duration",
+      "value": "48 hours"
+    },
+    {
+      "label": "Role",
+      "value": "Gameplay programming"
+    }
+  ],
+  "tags": [
+    "Unity",
+    "C#",
+    "Game Jam"
+  ]
+}

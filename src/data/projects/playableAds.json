@@ -1,0 +1,34 @@
+{
+  "title": "Playable Ads",
+  "description": "...",
+  "projectTimestamp": "2024-2026",
+  "image": "",
+  "banner": "",
+  "links": [
+    {
+      "label": "",
+      "url": ""
+    }
+  ],
+  "expandedDescription": [
+    ""
+  ],
+  "galleryImages": [
+    ""
+  ],
+  "technologies": [
+    ""
+  ],
+  "projectInfo": [
+    {
+      "label": "Client",
+      "value": "Activision Blizzard Media"
+    }
+  ],
+  "tags": [
+    "Unity",
+    "C#",
+    "Unity Playworks",
+    "JS"
+  ]
+}

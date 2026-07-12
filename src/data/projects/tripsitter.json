@@ -1,0 +1,52 @@
+{
+  "title": "Tripsitter",
+  "description": "Global Game Jam 2024",
+  "projectTimestamp": "2024",
+  "image": "tripsitterImage.png",
+  "banner": "tripsitterImage.png",
+  "links": [
+    {
+      "label": "Game Jam",
+      "url": "https://globalgamejam.org/games/2024/tripsitter-1"
+    },
+    {
+      "label": "Itch.io",
+      "url": "https://jitse.itch.io/tripsitter"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/JitseVerstraete/Tripsitter"
+    },
+    {
+      "label": "Trailer",
+      "url": "https://www.youtube.com/watch?v=tOf6fNsfZy4"
+    }
+  ],
+  "expandedDescription": [
+    "Tripsitter is a small game created during Global Game Jam 2024.",
+    "The player receives a panicked call from a friend who has taken too many psychedelics and needs help avoiding a bad trip.",
+    "The player keeps their friend comfortable by removing disturbing stimuli and responding to their needs. Actions include giving them food when they are hungry, changing the TV channel, and opening or closing the window blinds."
+  ],
+  "galleryImages": [
+    "tripsitterImage.png"
+  ],
+  "technologies": [
+    "Unity",
+    "C#"
+  ],
+  "projectInfo": [
+    {
+      "label": "Context",
+      "value": "Global Game Jam 2024"
+    },
+    {
+      "label": "Duration",
+      "value": "48-hour game jam"
+    }
+  ],
+  "tags": [
+    "Unity",
+    "C#",
+    "Game Jam"
+  ]
+}

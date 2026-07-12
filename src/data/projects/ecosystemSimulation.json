@@ -1,0 +1,47 @@
+{
+  "title": "Ecosystem Simulation",
+  "description": "Natural selection simulation",
+  "projectTimestamp": "2022",
+  "image": "Ecosystem.gif",
+  "banner": "Ecosystem.png",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/JitseVerstraete/EcosystemSimulation"
+    }
+  ],
+  "expandedDescription": [
+    "Ecosystem Simulation started from an interest in genetics and natural selection.",
+    "The goal was to create a simulation where organism traits and genes change based on environmental factors. Organisms need to eat to survive and reproduce to sustain the population.",
+    "Each organism's genes define how fast it can move and how far it can see. Stronger traits come with a cost: higher vision or speed values consume more energy and require more food.",
+    "The old portfolio also pointed to the GitHub page for a more detailed breakdown of the simulation behavior and results."
+  ],
+  "galleryImages": [
+    "Ecosystem.gif",
+    "Ecosystem.png"
+  ],
+  "technologies": [
+    "Unity",
+    "C#",
+    "Excel"
+  ],
+  "projectInfo": [
+    {
+      "label": "Context",
+      "value": "Personal simulation experiment"
+    },
+    {
+      "label": "Duration",
+      "value": "~20 hours"
+    },
+    {
+      "label": "Topics",
+      "value": "Genetics, natural selection, and emergent simulation"
+    }
+  ],
+  "tags": [
+    "Unity",
+    "C#",
+    "Simulation"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Hidden Through Time 2: Myths & Magic",
+  "description": "Hidden object game",
+  "projectTimestamp": "2023",
+  "image": "htt2cover.jpg",
+  "banner": "htt2cover.jpg",
+  "links": [
+    {
+      "label": "Steam",
+      "url": "https://store.steampowered.com/app/2304640/Hidden_Through_Time_2_Myths__Magic/"
+    },
+    {
+      "label": "Trailer",
+      "url": "https://www.youtube.com/watch?v=L-QeQ3iAckE"
+    }
+  ],
+  "expandedDescription": [
+    "Hidden Through Time 2: Myths & Magic is a casual hidden object game by Rogueside. I contributed to the project during my end-of-study internship.",
+    "The game challenges players to find hidden items and characters across hand-drawn environments. It includes a story campaign across four eras, a built-in level designer, and support for sharing custom levels.",
+    "My work started with bug fixing across existing gameplay systems, which helped me get familiar with the production codebase while the game was already mostly feature-complete.",
+    "After release, I worked on console and mobile porting tasks. This included a reusable controller navigation system for menus and windows, Android build and boot fixes, touch input support, Steam Deck compatibility, and readability improvements for smaller screens."
+  ],
+  "galleryImages": [
+    "htt2cover.jpg"
+  ],
+  "technologies": [
+    "Unity",
+    "C#",
+    "Sourcetree",
+    "Android",
+    "Steam Deck"
+  ],
+  "projectInfo": [
+    {
+      "label": "Context",
+      "value": "End-of-study internship at Rogueside"
+    },
+    {
+      "label": "Role",
+      "value": "Gameplay, porting, controller input, and bug fixing"
+    }
+  ],
+  "tags": [
+    "Unity",
+    "C#",
+    "Porting"
+  ]
+}

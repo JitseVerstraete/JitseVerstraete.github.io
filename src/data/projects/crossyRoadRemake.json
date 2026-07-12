@@ -1,0 +1,53 @@
+{
+  "title": "Crossy Road Remake",
+  "description": "Graphics programming project",
+  "projectTimestamp": "2022",
+  "image": "CrossyRoadScreenshot.png",
+  "banner": "CrossyRoadScreenshot.png",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/JitseVerstraete/CrossyRoadRemake"
+    },
+    {
+      "label": "Trailer",
+      "url": "https://www.youtube.com/watch?v=0N1ps_L79bs"
+    }
+  ],
+  "expandedDescription": [
+    "Crossy Road Remake is a small game project focused on graphics programming techniques.",
+    "The project was built in a basic engine with DirectX, PhysX, and a game loop already set up. I implemented systems including shadow mapping, skinned animations, sprite rendering, text rendering, a particle system, and post-processing.",
+    "The remake contains four terrain types: grass, water, road, and railway. These terrain layers are generated as the player moves forward.",
+    "I used a world grid to detect trees and rivers, and collider checks to detect cars and trains.",
+    "I wrote custom HLSL shaders, including geometry shaders for grass blades and road markings, plus a shader for customizing passing car colors."
+  ],
+  "galleryImages": [
+    "CrossyRoadScreenshot.png",
+    "CrossyRoadLogo.png"
+  ],
+  "technologies": [
+    "C++",
+    "HLSL",
+    "DirectX",
+    "PhysX"
+  ],
+  "projectInfo": [
+    {
+      "label": "Context",
+      "value": "Graphics programming school project"
+    },
+    {
+      "label": "Duration",
+      "value": "~40 hours"
+    },
+    {
+      "label": "Topics",
+      "value": "Rendering systems, shaders, and engine programming"
+    }
+  ],
+  "tags": [
+    "C++",
+    "DirectX",
+    "HLSL"
+  ]
+}
