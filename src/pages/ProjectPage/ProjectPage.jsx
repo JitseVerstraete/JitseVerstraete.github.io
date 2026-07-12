@@ -153,7 +153,6 @@ export default function ProjectPage() {
             <ContentSection className="project-info-section">
                 <ProjectDetailsPanel
                     projectInfo={project.projectInfo}
-                    technologies={project.technologies}
                     detailsListRef={detailsListRef}
                     mediaLayout={projectMediaLayout}
                 >

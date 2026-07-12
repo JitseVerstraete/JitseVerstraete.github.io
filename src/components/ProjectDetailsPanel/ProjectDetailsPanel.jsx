@@ -3,7 +3,6 @@ import "./ProjectDetailsPanel.css";
 
 export default function ProjectDetailsPanel({
     projectInfo = [],
-    technologies = [],
     children,
     detailsListRef,
     mediaLayout = "none",
@@ -16,22 +15,18 @@ export default function ProjectDetailsPanel({
             className={`project-details-panel${hasMedia ? " project-details-panel-with-media" : ""}${mediaLayoutClassName}`}
         >
             <dl className="project-info-list" ref={detailsListRef}>
-                {projectInfo.map((item) => (
-                    <div className="project-info-row" key={`${item.label}-${item.value}`}>
+                {projectInfo.map((item, index) => (
+                    <div className="project-info-row" key={`${item.label}-${index}`}>
                         <dt>{item.label}</dt>
-                        <dd>{item.value}</dd>
-                    </div>
-                ))}
-                {technologies.length > 0 && (
-                    <div className="project-info-row">
-                        <dt>Technologies</dt>
-                        <dd className="project-details-tech-list">
-                            {technologies.map((technology) => (
-                                <span key={technology}>{technology}</span>
-                            ))}
+                        <dd className={Array.isArray(item.value) ? "project-info-tags" : undefined}>
+                            {Array.isArray(item.value)
+                                ? item.value.map((value, valueIndex) => (
+                                    <span key={`${value}-${valueIndex}`}>{value}</span>
+                                ))
+                                : item.value}
                         </dd>
                     </div>
-                )}
+                ))}
             </dl>
             {children}
         </div>

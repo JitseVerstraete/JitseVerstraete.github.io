@@ -7,11 +7,13 @@
   "links": [
     {
       "label": "GitHub",
-      "url": "https://github.com/JitseVerstraete/CrossyRoadRemake"
+      "url": "https://github.com/JitseVerstraete/CrossyRoadRemake",
+      "iconId": "github"
     },
     {
       "label": "Trailer",
-      "url": "https://www.youtube.com/watch?v=0N1ps_L79bs"
+      "url": "https://www.youtube.com/watch?v=0N1ps_L79bs",
+      "iconId": "youtube"
     }
   ],
   "expandedDescription": [
@@ -25,12 +27,6 @@
     "CrossyRoadScreenshot.png",
     "CrossyRoadLogo.png"
   ],
-  "technologies": [
-    "C++",
-    "HLSL",
-    "DirectX",
-    "PhysX"
-  ],
   "projectInfo": [
     {
       "label": "Context",
@@ -43,6 +39,15 @@
     {
       "label": "Topics",
       "value": "Rendering systems, shaders, and engine programming"
+    },
+    {
+      "label": "Technologies",
+      "value": [
+        "C++",
+        "HLSL",
+        "DirectX",
+        "PhysX"
+      ]
     }
   ],
   "tags": [

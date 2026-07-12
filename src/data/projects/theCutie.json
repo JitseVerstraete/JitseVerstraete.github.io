@@ -16,13 +16,16 @@
   "galleryImages": [
     ""
   ],
-  "technologies": [
-    ""
-  ],
   "projectInfo": [
     {
       "label": "",
       "value": ""
+    },
+    {
+      "label": "Technologies",
+      "value": [
+        ""
+      ]
     }
   ],
   "tags": [

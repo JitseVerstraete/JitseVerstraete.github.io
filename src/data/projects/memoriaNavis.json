@@ -7,11 +7,13 @@
   "links": [
     {
       "label": "Itch.io",
-      "url": "https://wout-de-bolster.itch.io/memoria-navis"
+      "url": "https://wout-de-bolster.itch.io/memoria-navis",
+      "iconId": "itch"
     },
     {
       "label": "Trailer",
-      "url": "https://www.youtube.com/watch?v=IS2b-XopOSQ"
+      "url": "https://www.youtube.com/watch?v=IS2b-XopOSQ",
+      "iconId": "youtube"
     }
   ],
   "expandedDescription": [
@@ -27,22 +29,7 @@
     "MN_01.jpg",
     "MN_02.jpg",
     "MN_03.jpg",
-    "MN_01.jpg",
-    "MN_02.jpg",
-    "MN_03.jpg",
-    "MN_01.jpg",
-    "MN_02.jpg",
-    "MN_03.jpg",
-    "MN_01.jpg",
-    "MN_02.jpg",
-    "MN_03.jpg",
     "MN_04.jpg"
-  ],
-  "technologies": [
-    "Unity",
-    "C#",
-    "BrainFlow",
-    "EEG"
   ],
   "projectInfo": [
     {
@@ -56,6 +43,15 @@
     {
       "label": "Team",
       "value": "6-person student team"
+    },
+    {
+      "label": "Technologies",
+      "value": [
+        "Unity",
+        "C#",
+        "BrainFlow",
+        "EEG"
+      ]
     }
   ],
   "tags": [

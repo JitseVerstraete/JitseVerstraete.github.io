@@ -1,37 +1,12 @@
 import React from 'react';
-import { FaExternalLinkAlt, FaGamepad, FaGithub, FaItchIo, FaSteam, FaYoutube } from 'react-icons/fa';
 import './ProjectBanner.css';
 import { projectImages } from '../../data/images';
-
-function getLinkIcon(link) {
-    const linkText = `${link.label} ${link.url}`.toLowerCase();
-
-    if (linkText.includes("github")) {
-        return FaGithub;
-    }
-
-    if (linkText.includes("youtube") || linkText.includes("trailer")) {
-        return FaYoutube;
-    }
-
-    if (linkText.includes("itch")) {
-        return FaItchIo;
-    }
-
-    if (linkText.includes("steam")) {
-        return FaSteam;
-    }
-
-    if (linkText.includes("game jam") || linkText.includes("globalgamejam")) {
-        return FaGamepad;
-    }
-
-    return FaExternalLinkAlt;
-}
+import IconLink from '../IconLink/IconLink';
+import { hasIconLinkContent } from '../IconLink/IconLink.helpers';
 
 export default function ProjectBanner({projectData}) {
     const bannerImage = projectImages[projectData.banner] || projectImages[projectData.image];
-    const links = projectData.links || [];
+    const links = (projectData.links || []).filter(hasIconLinkContent);
 
     return (
         <section
@@ -47,24 +22,15 @@ export default function ProjectBanner({projectData}) {
                     )}
                     {links.length > 0 && (
                         <div className="banner-links">
-                            {links.map((link) => {
-                                const Icon = getLinkIcon(link);
-
-                                return (
-                                    <a
-                                        key={link.url}
-                                        className="banner-link"
-                                        href={link.url}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        aria-label={link.label}
-                                        title={link.label}
-                                    >
-                                        <Icon aria-hidden="true" focusable="false" />
-                                        <span className="banner-link-label">{link.label}</span>
-                                    </a>
-                                );
-                            })}
+                            {links.map((link) => (
+                                <IconLink
+                                    key={link.url}
+                                    url={link.url}
+                                    label={link.label}
+                                    iconId={link.iconId}
+                                    target="_blank"
+                                />
+                            ))}
                         </div>
                     )}
                 </div>

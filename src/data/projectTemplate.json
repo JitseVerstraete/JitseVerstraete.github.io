@@ -7,11 +7,16 @@
   "links": [
     {
       "label": "GitHub",
-      "url": "https://github.com/username/project"
+      "url": "https://github.com/username/project",
+      "iconId": "github"
     },
     {
-      "label": "Trailer",
-      "url": "https://www.youtube.com/watch?v=VIDEO_ID"
+      "url": "https://www.youtube.com/watch?v=VIDEO_ID",
+      "iconId": "youtube"
+    },
+    {
+      "label": "Project Page",
+      "url": "https://example.com/project"
     }
   ],
   "expandedDescription": [
@@ -22,10 +27,6 @@
     "thumbnail-image.png",
     "screenshot-1.png",
     "screenshot-2.png"
-  ],
-  "technologies": [
-    "Unity",
-    "C#"
   ],
   "projectInfo": [
     {
@@ -39,6 +40,13 @@
     {
       "label": "Role",
       "value": "Gameplay programming"
+    },
+    {
+      "label": "Technologies",
+      "value": [
+        "Unity",
+        "C#"
+      ]
     }
   ],
   "tags": [

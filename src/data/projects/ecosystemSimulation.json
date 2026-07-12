@@ -7,7 +7,8 @@
   "links": [
     {
       "label": "GitHub",
-      "url": "https://github.com/JitseVerstraete/EcosystemSimulation"
+      "url": "https://github.com/JitseVerstraete/EcosystemSimulation",
+      "iconId": "github"
     }
   ],
   "expandedDescription": [
@@ -19,11 +20,6 @@
   "galleryImages": [
     "Ecosystem.gif",
     "Ecosystem.png"
-  ],
-  "technologies": [
-    "Unity",
-    "C#",
-    "Excel"
   ],
   "projectInfo": [
     {
@@ -37,6 +33,14 @@
     {
       "label": "Topics",
       "value": "Genetics, natural selection, and emergent simulation"
+    },
+    {
+      "label": "Technologies",
+      "value": [
+        "Unity",
+        "C#",
+        "Excel"
+      ]
     }
   ],
   "tags": [

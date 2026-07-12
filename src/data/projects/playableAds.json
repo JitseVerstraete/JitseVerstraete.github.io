@@ -16,13 +16,16 @@
   "galleryImages": [
     ""
   ],
-  "technologies": [
-    ""
-  ],
   "projectInfo": [
     {
       "label": "Client",
       "value": "Activision Blizzard Media"
+    },
+    {
+      "label": "Technologies",
+      "value": [
+        ""
+      ]
     }
   ],
   "tags": [

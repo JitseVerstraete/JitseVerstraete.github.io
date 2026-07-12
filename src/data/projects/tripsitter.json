@@ -7,19 +7,23 @@
   "links": [
     {
       "label": "Game Jam",
-      "url": "https://globalgamejam.org/games/2024/tripsitter-1"
+      "url": "https://globalgamejam.org/games/2024/tripsitter-1",
+      "iconId": "gamejam"
     },
     {
       "label": "Itch.io",
-      "url": "https://jitse.itch.io/tripsitter"
+      "url": "https://jitse.itch.io/tripsitter",
+      "iconId": "itch"
     },
     {
       "label": "GitHub",
-      "url": "https://github.com/JitseVerstraete/Tripsitter"
+      "url": "https://github.com/JitseVerstraete/Tripsitter",
+      "iconId": "github"
     },
     {
       "label": "Trailer",
-      "url": "https://www.youtube.com/watch?v=tOf6fNsfZy4"
+      "url": "https://www.youtube.com/watch?v=tOf6fNsfZy4",
+      "iconId": "youtube"
     }
   ],
   "expandedDescription": [
@@ -30,10 +34,6 @@
   "galleryImages": [
     "tripsitterImage.png"
   ],
-  "technologies": [
-    "Unity",
-    "C#"
-  ],
   "projectInfo": [
     {
       "label": "Context",
@@ -42,6 +42,13 @@
     {
       "label": "Duration",
       "value": "48-hour game jam"
+    },
+    {
+      "label": "Technologies",
+      "value": [
+        "Unity",
+        "C#"
+      ]
     }
   ],
   "tags": [

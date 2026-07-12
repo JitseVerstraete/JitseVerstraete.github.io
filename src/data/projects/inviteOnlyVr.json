@@ -17,13 +17,16 @@
     "IOVRClassroom.jpg",
     "IOVRThumbnail.png"
   ],
-  "technologies": [
-    ""
-  ],
   "projectInfo": [
     {
       "label": "",
       "value": ""
+    },
+    {
+      "label": "Technologies",
+      "value": [
+        ""
+      ]
     }
   ],
   "tags": [

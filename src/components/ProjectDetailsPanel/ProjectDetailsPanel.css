@@ -76,19 +76,19 @@
     line-height: 1.35;
 }
 
-.project-details-tech-list {
+.project-info-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.4rem;
+    gap: 8px;
 }
 
-.project-details-tech-list span {
-    padding: 0.25rem 0.55rem;
-    border: 1px solid var(--color-border-strong);
+.project-info-tags span {
+    padding: 6px 10px;
     border-radius: 3px;
-    font-size: 0.85rem;
-    color: var(--color-text);
     background: var(--color-surface-elevated);
+    border: 1px solid var(--color-border-strong);
+    color: var(--color-text);
+    font-size: 12px;
 }
 
 @media (max-width: 1000px) {

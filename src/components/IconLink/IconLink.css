@@ -1,0 +1,67 @@
+.icon-link {
+    --icon-link-size: 2.4rem;
+
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    min-width: var(--icon-link-size);
+    height: var(--icon-link-size);
+    max-width: 100%;
+    padding: 0 0.75rem;
+    border: 1px solid var(--color-border-strong);
+    border-radius: 999px;
+    background: var(--color-surface);
+    color: var(--color-text);
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: border-color 0.16s ease, transform 0.16s ease;
+}
+
+.icon-link-icon-only {
+    width: var(--icon-link-size);
+    padding: 0;
+}
+
+.icon-link svg {
+    flex: 0 0 auto;
+    width: 1rem;
+    height: 1rem;
+}
+
+.icon-link-label {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.icon-link:hover {
+    border-color: var(--color-accent);
+    transform: translateY(-1px);
+}
+
+.icon-link:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+    .icon-link {
+        --icon-link-size: 2.3rem;
+
+        padding: 0 0.68rem;
+    }
+
+    .icon-link-icon-only {
+        width: var(--icon-link-size);
+        padding: 0;
+    }
+
+    .icon-link svg {
+        width: 0.95rem;
+        height: 0.95rem;
+    }
+}

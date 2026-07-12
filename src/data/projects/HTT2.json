@@ -7,11 +7,13 @@
   "links": [
     {
       "label": "Steam",
-      "url": "https://store.steampowered.com/app/2304640/Hidden_Through_Time_2_Myths__Magic/"
+      "url": "https://store.steampowered.com/app/2304640/Hidden_Through_Time_2_Myths__Magic/",
+      "iconId": "steam"
     },
     {
       "label": "Trailer",
-      "url": "https://www.youtube.com/watch?v=L-QeQ3iAckE"
+      "url": "https://www.youtube.com/watch?v=L-QeQ3iAckE",
+      "iconId": "youtube"
     }
   ],
   "expandedDescription": [
@@ -23,21 +25,28 @@
   "galleryImages": [
     "htt2cover.jpg"
   ],
-  "technologies": [
-    "Unity",
-    "C#",
-    "Sourcetree",
-    "Android",
-    "Steam Deck"
-  ],
   "projectInfo": [
     {
       "label": "Context",
-      "value": "End-of-study internship at Rogueside"
+      "value": "End-of-study internship"
+    },
+    {
+      "label": "Company",
+      "value": "Rogueside"
     },
     {
       "label": "Role",
       "value": "Gameplay, porting, controller input, and bug fixing"
+    },
+    {
+      "label": "Technologies",
+      "value": [
+        "Unity",
+        "C#",
+        "Sourcetree",
+        "Android",
+        "Steam Deck"
+      ]
     }
   ],
   "tags": [
